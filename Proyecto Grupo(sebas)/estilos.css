@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    background-color: lightblue;
+    margin: 0%;
+    padding: 0%;
+    /*Aun no se como hacer para que body y header me queden como una sola cosa*/
+}
+
+.logo img {
+    float: left;
+    height: 50px;
+    margin-right: 20px;
+    /* si al logo le paso el raton por encima se pone de color por culpa del nav hover , por solucionar*/
+}
+
+#logo {
+    width: 100%;
+    height: 100px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Esto es para que el logo se quede a la derecha , aun no me convence el logo*/
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoPrincipal {
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: multiply;
+    /*Esto es para que el logo se vea mas claro*/
+}
+
+nav {
+    height: 2px;
+    /*Esto es para que el nav no se vea tan grande*/
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #333;
+    line-height: 20px;
+    padding: 10px;
+
+}
+
+#menu {
+    /*Esto es para que el menu se vea mas grande*/
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    overflow: hidden;
+}
+
+nav :hover {
+    background-color: lightblue;
+    color: black;
+    /*Esto es para que cuando pase el raton por encima del menu se vea de otro color*/
+
+
+}
+
+main {
+    background-color: rgb(89, 118, 128);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*Esto es para que el main se vea mas grande*/
+
+.formulario {
+    flex: 1;
+    max-width: 400px;
+    /*Esto da el ancho del formulario lo que hace que no se solape con las imagenes*/
+}
+
+form {
+    width: 20px;
+    max-width: 200px;
+    padding: 10px;
+    margin: left 0px;
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    border: #333;
+}
+
+/* no tocar porfi me costo mucho hacerlo*/
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+}
+
+/*Esto es para que el footer se vea mas grande no me gusta aun como queda pero no veo mnera de hacerlo mejor*/
+
+textarea,
+input {
+    resize: none;
+    background-color: white;
+    display: inline-block;
+}
+
+/*Esto es para que el textarea y el input se vean mas grandes*/
+
+.envir {
+    background-color: white;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+/*Esto es para que el boton de enviar se vea mas grande no le hice ningun cambio es repositorio*/
+
+.imagenesgym {
+    display: flex;
+    gap: 20px;
+    /*Este es el espacio entre imagenes*/
+    justify-content: flex-end;
+
+}
+
+/*Esto es para que las imagenes se vean mas grandes y se vean mejor*/
+
+.imagenesgym img {
+    height: auto;
+    width: 50px;
+    /*Tamaño de las imagenes aun hay que ajustar , tambien agregar mas imagenes*/
+}
+
+#imagen1 {
+    height: auto;
+    width: 100px;
+
+}
+
+#imagen2 {
+    height: auto;
+    width: 100px;
+
+}
+
+#imagen3 {
+    height: auto;
+    width: 100px;
+}
+
+/*Falta agruegar imagenes y poder hacer que se vayan pasando , tambien falta agregar mas contenidoa los h1 y los p y agregarle colores , el color de la pagina aun no lo decido pero el color del nav si que me gusta mucho/*/
